@@ -15,19 +15,27 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@contentful/rich-text-plain-text-renderer": "^16.0.7",
     "@vanilla-extract/css": "^1.14.0",
     "@vanilla-extract/webpack-plugin": "^2.3.1",
+    "dotenv": "^16.3.1",
     "gatsby": "^5.12.4",
     "gatsby-alias-imports": "^1.0.6",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-react-helmet": "^6.12.0",
+    "gatsby-plugin-sharp": "^5.12.3",
     "gatsby-plugin-vanilla-extract": "^4.0.1",
+    "gatsby-source-contentful": "^8.12.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-feather": "^2.0.10"
+    "react-feather": "^2.0.10",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@types/node": "^20.3.3",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
+    "@types/react-helmet": "^6.1.9",
     "@typescript-eslint/eslint-plugin": "^6.12.0",
     "@typescript-eslint/parser": "^6.12.0",
     "eslint": "^8.54.0",

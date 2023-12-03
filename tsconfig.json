@@ -23,6 +23,9 @@
       ],
       "styles/*": [
         "./src/styles/*"
+      ],
+      "types/*": [
+        "./src/types/*"
       ]
     },
   },
